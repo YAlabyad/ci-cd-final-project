@@ -5,7 +5,7 @@ metadata:
 
 spec:
   workspaces:
-    name: source
+  - name: source
   steps:
   - name: remove
     image: alpine:3
@@ -38,7 +38,7 @@ metadata:
 
 spec: 
   workspaces:
-    name: source
+  - name: source
   params:
   - name: args
     type: string
